@@ -35,11 +35,6 @@ Seus usuários devem ser capazes de:
 
 Para o backend:
 
-```bash
-yarn
-```
-
-or
 
 ```bash
 npm install
@@ -50,8 +45,22 @@ npm install
 ```bash
 nodemon js
 ```
+Para o Frontend:
+- Instalando as dependências:
+```
+dart pub upgrade
+```
+
+### MongoBD
+Com o MongoDB instalado na máquina, execute o seguinte comando para iniciar o servidor:
+
+```
+mongosh
+```
 
 ## Built with
 
 - Flutter
 - NodeJS
+- [Stripe](https://stripe.com/br) - Infraestrutura de pagamentos para a internet
+- MongoDB
